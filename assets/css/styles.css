@@ -1,0 +1,83 @@
+body{
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+.card1{
+    position: absolute;
+    width: 500px;
+    height: 550px;
+    background: #B2E4DA;
+    border-radius: 25px;
+}
+
+.card1 .card-title{
+    font-family: 'catamaran', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.card1 .card-subtitle{
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.card2{
+    position: absolute;
+    width: 500px;
+    height: 550px;
+    background: #F2A366;
+    border-radius: 25px;
+}
+
+.card2 .card-title{
+    font-family: 'catamaran', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.card2 .card-subtitle{
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.card1 .card-text-align-center{
+    position: relative;
+    top: 350px;
+}
+
+.card2 .card-text-align-center{
+    position: relative;
+    top: 350px;
+}
+
+.form{
+    position: absolute;
+    top: 70px;
+}
+
+.btn-primary{
+    height: 35px;
+    border-radius: 8px;
+    background-color: #5369CF;
+    border: none !important;
+    font-size: 18px;
+}
+
+@media (max-width: 575.98px) { 
+    #box{
+    display: none !important;
+}}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #box{
+    display: none !important;
+}}
+

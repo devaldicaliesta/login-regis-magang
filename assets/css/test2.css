@@ -1,0 +1,42 @@
+body{
+    font-family: 'Catamaran', sans-serif;
+    background-color: white;
+}
+
+.login{
+    height: 100vh;
+}
+
+.header h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.header p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+
+    color: #737373;
+}
+
+.login-left .signin{
+    background: #5369CF;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+}
+
+.card {
+    width: 500px;
+    height: 550px;
+    border-radius: 25px;
+}
+
+
+@media (min-width: 350px) and (max-width: 767.98px) { 
+    #pct{
+        display: none;
+    }
+ }
